@@ -1,16 +1,21 @@
 #include <stdio.h>
 
-/* THis is comment*/
+/**
+ * main - char function
+ * Return: 0 (Success)
+ * Description: Call the alphabet game
+ */
 
-int main(void)
+int main(void)/** must retun void or zero*/
 {
-	char aip[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char a;/**Assign a value a */
 
-	for (i = 0, i < 26, i++)
-	{
-		putchar (alp[i]);
-	}
-	putchar("\n");
+	a = 'a';
+	while
+		(a <= 'z')
+		{ putchar (a);
+			a++;
+		}
+	putchar('\n');
 	return (0);
 }
