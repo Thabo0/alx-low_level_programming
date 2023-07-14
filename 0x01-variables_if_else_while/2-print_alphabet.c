@@ -1,15 +1,16 @@
 #include <stdio.h>
-/** comment
- * here */
+
+/* THis is comment*/
+
 int main(void)
 {
-	char aip[26]="abcdefghijklmnopqrstuvwxyz";
+	char aip[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i=0,i<26,i++)
+	for (i = 0, i < 26, i++)
 	{
-		putchar(alp[i]);
+		putchar (alp[i]);
 	}
 	putchar("\n");
-	return(0);
+	return (0);
 }
