@@ -1,13 +1,16 @@
 #include <stdio.h>
-/**comment
- * here
- * now*/
+
+/**
+ * main - function
+ * Return: 0 (Success)
+ */
+
 int main(void)
 {
-	char alp[52]="abcdefghijklmnopqrstuvwxyzABCDEGHIJKLMNOPQRSTUVWXYZ";
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for(i=0; i<52; i++)
+	for (i = 0; i < 52; i++)
 	{
 		putchar(alp[i]);
 	}
