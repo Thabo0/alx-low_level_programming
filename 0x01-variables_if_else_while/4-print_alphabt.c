@@ -1,22 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
- * commet 4
- * Return 0 (Success)
- * */
+ * main - char function
+ * Return: 0 (Success)
+ * Description: Call the alphabet game
+ */
+
 int main(void)
-{
-	int i;
-	
-	for( i =97;i<123;i++)
+{	char a;
+	a = 'a';
+
+	while (((a <= 'z') && (a != 'e')) && ((a <= 'z') && (a != 'q')))
 	{
-		if(i !=101 && i != 113)
-		{
-			putchar(i);
-		}
+		putchar (a);
+		a++;
 	}
-	putchar("\n");
-	return(0);
+	putchar('\n');
+	return (0);
 }
