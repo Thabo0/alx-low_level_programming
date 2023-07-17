@@ -1,11 +1,14 @@
-#include <stdion.h>
+#include <stdio.h>
 
-/** comment
- * number 5
- * */
+/**
+ * main - char function
+ * Return: 0 (Success)
+ * Description: Print numbers
+ */
 int main(void)
 {
 	int i;
+
 	for (i = 0; i < 10; i++)
 	{
 		printf("%d", i);
