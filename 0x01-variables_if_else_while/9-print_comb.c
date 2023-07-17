@@ -1,20 +1,23 @@
 #include <stdio.h>
 
-/**comment
- * here */
-
+/**
+ * main - char function
+ * Return: 0 (Success)
+ * Description: Print letters
+ */
 int main(void)
 {
-	int n;
-	for (n=48; n<58;n++)
+	int ch;
+
+	for (ch = 48; ch < 58; ch++)
 	{
-		putchar(n);
-		if (n !=57)
+		putchar(ch);
+		if (ch != 57)
 		{
-			putchar(",");
-			putchar(" ");
+			putchar(',');
+			putchar(' ');
 		}
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
